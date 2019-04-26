@@ -18,7 +18,7 @@ fi
 
 if [ -d ${bakdir} ]; then
   echo -n "All files in ${bakdir} will be deleted! continue/Stop:"
-  read -n 1 arg
+  read -p 1 arg
   case ${arg} in
     c|C)
       ;;
